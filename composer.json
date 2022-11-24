@@ -1,0 +1,30 @@
+{
+	"name": "maximal/yii2-avif-thumbnailer",
+	"description": "Yii2 (over Imagine) helper for creating and caching AVIF thumbnails in real time",
+	"keywords": ["yii2", "avif", "thumbnail", "image", "imagine", "helper", "extension"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "maximal",
+			"homepage": "https://github.com/maximal"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": "^8.0|^8.1|^8.2",
+		"maximal/php-avif-thumbnailer": "^1.0",
+		"yiisoft/yii2-imagine": "^2.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Maximal\\Thumbnailers\\Yii2\\": "src/"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true
+		}
+	}
+}
